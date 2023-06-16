@@ -1,0 +1,23 @@
+POST http://localhost:8080/commands/shell/api/rest/v1/execute
+Content-Type: application/json
+
+{
+  "command": "ls",
+  "options": [
+    {
+      "optionName": "-lart"
+    }
+  ],
+  "arguments": [
+    {
+      "argumentName": ""
+    },
+    {
+      "argumentValue": ""
+    }
+  ],
+  "executionEnvironment": {
+    "workingDirectory": "/Users/mre32112/Downloads"
+  }
+}
+
