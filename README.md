@@ -6,7 +6,7 @@ mvn clean install
 
 # To Run the app
 
-mvn spring-boot:run
+./mvnw spring-boot:run
 
 ## Test API using below URL
 
